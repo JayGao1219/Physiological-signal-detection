@@ -15,7 +15,7 @@ def timeheart(item,begin,end):
         if (item[0]<beginStamp) or (item[0]>endStamp):
             return False
         pass
-    if item[6]<0 or item[6]>220:
+    if item[6]<10 or item[6]>250:
         return False
     return True
 
